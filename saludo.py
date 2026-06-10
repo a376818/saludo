@@ -1,4 +1,5 @@
 import datetime
+from time import sleep
 
 def main():
     time = datetime.datetime.now()
@@ -7,5 +8,6 @@ def main():
     meridian = time.strftime("%p")
 
     print("Hola, son las " + hour + ":" + minute + " " + meridian + "\n")
+    sleep(3)
 
 main()
