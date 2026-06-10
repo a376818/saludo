@@ -8,6 +8,6 @@ def main():
     meridian = time.strftime("%p")
 
     print("Hola, son las " + hour + ":" + minute + " " + meridian)
-    input("     Presione cualquier tecla para salir...\n")
+    input("     Presione enter para salir...\n")
 
 main()
