@@ -8,7 +8,7 @@ Estas instrucciones le permitirán obtener una copia del proyecto corriendo en s
 
 ### Prerequisitos
 
-#### `Python`
+### `Python`
 
 Descargue la versión adecuada para su dispositivo del [sitio web de Python](https://www.python.org/).\
 Siga las instrucciones del instalador.
