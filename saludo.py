@@ -1,12 +1,15 @@
 import datetime
 import socket
 
-name = socket.gethostname()
-time = datetime.datetime.now()
-hour = time.strftime("%I")
-minute = time.strftime("%M")
-meridian = time.strftime("%p")
+def main():
+    name = socket.gethostname()
+    time = datetime.datetime.now()
+    hour = time.strftime("%I")
+    minute = time.strftime("%M")
+    meridian = time.strftime("%p")
 
-print("Hola " + name + ", son las " + hour + ":" + minute + " " + meridian)
+    print("Hola " + name + ", son las " + hour + ":" + minute + " " + meridian)
 
-input("     Presione una tecla para salir...")
+    input("     Presione una tecla para salir...")
+    
+main()
