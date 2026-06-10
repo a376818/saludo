@@ -7,7 +7,7 @@ def main():
     minute = time.strftime("%M")
     meridian = time.strftime("%p")
 
-    print("Hola, son las " + hour + ":" + minute + " " + meridian + "\n")
-    sleep(3)
+    print("Hola, son las " + hour + ":" + minute + " " + meridian)
+    input("     Presione cualquier tecla para salir...\n")
 
 main()
