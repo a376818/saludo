@@ -26,10 +26,19 @@ Una vez que haya clonado el repositorio en su dispositivo, puede abrir `saludo.p
 
 En el directorio del proyecto, puede correr:
 
-### `$ pyinstaller saludo.py`
+### `pyinstaller saludo.py`
 
 Para crear el ejecutable.\
 El archivo saludo.exe será creado en `\dist\saludo`.
+
+### `docker build -t py-saludo .`
+
+Para crear la imagen de Docker.\
+Seguido de:
+
+### `docker run -t -i py-saludo`
+
+Para correr el programa en Docker con interactividad.
 
 ## Construido con
 
@@ -37,7 +46,8 @@ El archivo saludo.exe será creado en `\dist\saludo`.
 
 ## Versiones
 
-[SemVer](http://semver.org/) fpara versiones. Para las versiones disponibles, revise [las etiquetas en este repositorio](https://github.com/your/project/tags). 
+La etiqueta de Docker para la versión actual es `v1.0.0`.\
+Para cambios menores, cambiar el último dígito.
 
 ## Autores
 
